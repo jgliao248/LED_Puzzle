@@ -14,7 +14,7 @@ The microcontroller that will control the LEDs and receive commands to change th
 LED states from the IR remote. The Pico W will be controlled with [MicroPython](https://micropython.org/)
 as it is the easier to get started and developed quickly. There is no specific need
 to optimize the speed of the controller as it is only setting the state of the LEDs. 
-Code for the controller could later be developed in C if need arises.
+Code for the controller could later be developed in C if need arises. https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf
 
 ### WS2812 RGB LEDs https://www.aliexpress.us/item/2251801850504415.html?spm=a2g0o.order_list.order_list_main.17.21ef1802FIAkct&gatewayAdapt=glo2usa&_randl_shipto=US
 These LEDs are commonly found on LED light strips. They are good options for this project
